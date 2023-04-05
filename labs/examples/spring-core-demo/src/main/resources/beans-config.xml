@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-init-method="init" default-destroy-method="destroy" xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <import resource="beans-config-car.xml"/> -->
+    <bean id="bmw" class="com.examples.spring.Car" lazy-init="true" scope="singleton" autowire="byType">   
+    
+    	<!-- <constructor-arg name="engine" ref="petrol" /> -->
+        <property name="color" value="White" />
+        <property name="manufacturer" value="BMW" />
+        <property name="model" value="X7" />
+        <property name="engine" ref="petrol"/>
+        
+    </bean>
+
+    <bean id="petrol" class="com.examples.spring.Engine" lazy-init="true" scope="singleton" autowire-candidate="true" >
+		<property name="capacity" value="3000" />
+        <property name="noOfCynclinders" value="6" />
+        <property name="torque" value="700" />
+    </bean>
+    
+    <bean id="diesel" class="com.examples.spring.Engine" lazy-init="true" primary="true" autowire-candidate="false">
+		<property name="capacity" value="4000" />
+        <property name="noOfCynclinders" value="6" />
+        <property name="torque" value="800" />
+    </bean>
+    
+    <bean id="electric" class="com.examples.spring.Engine" lazy-init="true" primary="true">
+		<property name="capacity" value="6000" />
+        <property name="noOfCynclinders" value="4" />
+        <property name="torque" value="20" />        
+    </bean>
+
+</beans>
