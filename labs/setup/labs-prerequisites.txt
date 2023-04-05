@@ -1,0 +1,19 @@
+Hardware / Network Requirements:
+================================
+
+Desktop or Laptop with minimum 8 GB RAM
+Open Internet connection with good speed (minimum 5 Mbps per user)
+Local Admin Access (to download maven packages)
+
+Software Requirements:
+======================
+
+Windows / Linux / Mac OS
+JDK 11
+Eclipse 4.8+ / STS 4+ / Intellij IDE
+Git 2.3+
+Maven 3.4+
+Tomcat 9
+MySQL Server 8+
+MySQL Workbench 8+
+Postman 8+
