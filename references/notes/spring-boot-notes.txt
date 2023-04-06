@@ -1,0 +1,54 @@
+Spring Boot Overview
+	- Minimize configuration and boilerplate code
+	- Production ready standalone application
+	- Provides various non functional / infra features - embedded webservers, monitoring & mgmt, metrics
+
+Spring Boot Components
+	- Auto Configuration
+	- Spring Boot Starters
+	- Spring Boot Parent Starter
+	
+	spring-boot-starter 
+		- spring-core
+		- spring-context
+		- spring-beans
+		- spring-expression
+		- sping-aop
+		- snake-yaml
+		- logback
+
+Creating Spring Boot project
+	- Spring Boot Maven project
+	- Spring Boot Starter - using IDE
+	- Sprint Boot Initialzr
+	- Spring Boot CLI
+		- spring init --dependencies=web SpringBootCliEx
+				
+Features
+	- Spring Application
+	- Command Line Runner / Application Runner 
+	- Externalized Configuration (application.properties / application.yaml)
+		- property file
+		- yaml file
+		
+	@ConfigurationProperties
+	
+	- Application Properties / YAML
+	- Logging - logback, log4j -> SLF4J
+	- Packaging - jar, war
+	- Profiling	- dev, qa, prod  
+		java -jar app.jar --spring.profiles.active=prod
+		
+		application-dev.properties | application-uat.properties | application-prod.properties
+	
+	- DevTools  - code changes will be auto refreshed
+	- Monitoring -> Actuators -> Monitor health / metrics
+
+
+Web App 
+	-> Spring Web -> Spring MVC -> presentation, service and data access
+			 Spring REST -> service and data access
+					 
+	-> Spring Boot support for Spring MVC
+	-> Spring Boot support for Spring REST
+	

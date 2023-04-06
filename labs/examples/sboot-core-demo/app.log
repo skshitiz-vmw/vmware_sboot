@@ -1,0 +1,145 @@
+2023-04-06 17:19:42.972  INFO 14027 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14027 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:19:42.974 DEBUG 14027 --- [main] c.e.b.SbootCoreDemoApplication           : Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-06 17:19:42.975  INFO 14027 --- [main] c.e.b.SbootCoreDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:19:43.873  INFO 14027 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.652 seconds (JVM running for 3.105)
+2023-04-06 17:19:43.876 DEBUG 14027 --- [main] c.e.b.SbootCoreDemoApplication           : DEBUG LOG
+2023-04-06 17:19:43.877  INFO 14027 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:19:43.877  WARN 14027 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:19:43.877 ERROR 14027 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:19:43.918  INFO 14027 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='White', model='X7', manufacturer='BMW', engine=Engine{capacity=6000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:25:40.102  INFO 14104 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14104 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:25:40.107 DEBUG 14104 --- [main] c.e.b.SbootCoreDemoApplication           : Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-06 17:25:40.108  INFO 14104 --- [main] c.e.b.SbootCoreDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:25:41.020  INFO 14104 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.68 seconds (JVM running for 3.083)
+2023-04-06 17:25:41.025 DEBUG 14104 --- [main] c.e.b.SbootCoreDemoApplication           : DEBUG LOG
+2023-04-06 17:25:41.025  INFO 14104 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:25:41.025  WARN 14104 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:25:41.025 ERROR 14104 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:25:41.072  INFO 14104 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='White', model='X7', manufacturer='BMW', engine=Engine{capacity=6000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:29:07.480  INFO 14144 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14144 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:29:07.483 DEBUG 14144 --- [main] c.e.b.SbootCoreDemoApplication           : Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-06 17:29:07.485  INFO 14144 --- [main] c.e.b.SbootCoreDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:29:08.331  INFO 14144 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.53 seconds (JVM running for 2.908)
+2023-04-06 17:29:08.335 DEBUG 14144 --- [main] c.e.b.SbootCoreDemoApplication           : DEBUG LOG
+2023-04-06 17:29:08.335  INFO 14144 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:29:08.335  WARN 14144 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:29:08.335 ERROR 14144 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:29:08.384  INFO 14144 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='White', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:32:18.121  INFO 14192 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14192 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:32:18.125  INFO 14192 --- [main] c.e.b.SbootCoreDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:32:19.045  INFO 14192 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.635 seconds (JVM running for 2.965)
+2023-04-06 17:32:19.049  INFO 14192 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:32:19.049  WARN 14192 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:32:19.049 ERROR 14192 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:32:19.088  INFO 14192 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='White', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:32:39.604  INFO 14207 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14207 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:32:39.608  INFO 14207 --- [main] c.e.b.SbootCoreDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:32:40.401  INFO 14207 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.495 seconds (JVM running for 2.683)
+2023-04-06 17:32:40.406  INFO 14207 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:32:40.406  WARN 14207 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:32:40.406 ERROR 14207 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:32:40.447  INFO 14207 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='Black', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:33:41.638  INFO 14248 --- [main] c.e.b.SbootCoreDemoApplicationTests      : Starting SbootCoreDemoApplicationTests using Java 11 on Saravanas-MacBook-Pro.local with PID 14248 (started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:33:41.642  INFO 14248 --- [main] c.e.b.SbootCoreDemoApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:33:42.638  INFO 14248 --- [main] c.e.b.SbootCoreDemoApplicationTests      : Started SbootCoreDemoApplicationTests in 1.602 seconds (JVM running for 3.362)
+2023-04-06 17:33:42.647  INFO 14248 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:33:42.648  WARN 14248 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:33:42.648 ERROR 14248 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:33:42.697  INFO 14248 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='Black', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:36:54.589  INFO 14373 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14373 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:36:54.592  INFO 14373 --- [main] c.e.b.SbootCoreDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:36:55.468  INFO 14373 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.594 seconds (JVM running for 2.79)
+2023-04-06 17:36:55.472  INFO 14373 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:36:55.472  WARN 14373 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:36:55.473 ERROR 14373 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:36:55.511  INFO 14373 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='Black', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:49:57.867  INFO 14583 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14583 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:49:57.870  INFO 14583 --- [main] c.e.b.SbootCoreDemoApplication           : The following 1 profile is active: "dev"
+2023-04-06 17:49:58.748  INFO 14583 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.591 seconds (JVM running for 3.009)
+2023-04-06 17:49:58.752  INFO 14583 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:49:58.752  WARN 14583 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:49:58.752 ERROR 14583 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:49:58.798  INFO 14583 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='Blue', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:50:21.500  INFO 14604 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14604 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:50:21.506  INFO 14604 --- [main] c.e.b.SbootCoreDemoApplication           : The following 1 profile is active: "qa"
+2023-04-06 17:50:22.373  INFO 14604 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.593 seconds (JVM running for 2.826)
+2023-04-06 17:50:22.377  INFO 14604 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:50:22.378  WARN 14604 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:50:22.378 ERROR 14604 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:50:22.425  INFO 14604 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='White', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:50:35.375  INFO 14619 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14619 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:50:35.380  INFO 14619 --- [main] c.e.b.SbootCoreDemoApplication           : The following 1 profile is active: "prod"
+2023-04-06 17:50:36.207  INFO 14619 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.57 seconds (JVM running for 2.73)
+2023-04-06 17:50:36.211  INFO 14619 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:50:36.212  WARN 14619 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:50:36.212 ERROR 14619 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:50:36.262  INFO 14619 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='Maroon', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 17:50:46.289  INFO 14634 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14634 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 17:50:46.291  INFO 14634 --- [main] c.e.b.SbootCoreDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 17:50:47.123  INFO 14634 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.504 seconds (JVM running for 2.668)
+2023-04-06 17:50:47.128  INFO 14634 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 17:50:47.128  WARN 14634 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 17:50:47.128 ERROR 14634 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 17:50:47.165  INFO 14634 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='Black', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 18:01:47.891  INFO 14820 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14820 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 18:01:47.897  INFO 14820 --- [main] c.e.b.SbootCoreDemoApplication           : The following 1 profile is active: "dev"
+2023-04-06 18:01:48.531  WARN 14820 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appConfig': Unsatisfied dependency expressed through field 'carConfig'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examples.boot.CarConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-04-06 18:01:48.543  INFO 14820 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-06 18:01:48.561 ERROR 14820 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field carConfig in com.examples.boot.AppConfig required a bean of type 'com.examples.boot.CarConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.examples.boot.CarConfig' in your configuration.
+
+2023-04-06 18:03:46.734  INFO 14849 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14849 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 18:03:46.741  INFO 14849 --- [main] c.e.b.SbootCoreDemoApplication           : The following 1 profile is active: "dev"
+2023-04-06 18:03:47.374  WARN 14849 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sbootCoreDemoApplication': Unsatisfied dependency expressed through field 'carConfig'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examples.boot.CarConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-04-06 18:03:47.384  INFO 14849 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-06 18:03:47.405 ERROR 14849 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field carConfig in com.examples.boot.SbootCoreDemoApplication required a bean of type 'com.examples.boot.CarConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.examples.boot.CarConfig' in your configuration.
+
+2023-04-06 18:04:20.036  INFO 14865 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14865 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 18:04:20.041  INFO 14865 --- [main] c.e.b.SbootCoreDemoApplication           : The following 1 profile is active: "dev"
+2023-04-06 18:04:20.961  INFO 14865 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.623 seconds (JVM running for 2.775)
+2023-04-06 18:04:20.966  INFO 14865 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 18:04:20.966  WARN 14865 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 18:04:20.966 ERROR 14865 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 18:04:21.064  INFO 14865 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='Blue', model='X7', manufacturer='BMW', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
+2023-04-06 18:05:50.886  INFO 14887 --- [main] c.e.b.SbootCoreDemoApplication           : Starting SbootCoreDemoApplication using Java 11 on Saravanas-MacBook-Pro.local with PID 14887 (/Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo/target/classes started by saravana in /Users/saravana/Desktop/Training/vmware_sboot/labs/examples/sboot-core-demo)
+2023-04-06 18:05:50.891  INFO 14887 --- [main] c.e.b.SbootCoreDemoApplication           : The following 1 profile is active: "dev"
+2023-04-06 18:05:51.749  INFO 14887 --- [main] c.e.b.SbootCoreDemoApplication           : Started SbootCoreDemoApplication in 1.556 seconds (JVM running for 2.898)
+2023-04-06 18:05:51.752  INFO 14887 --- [main] c.e.b.SbootCoreDemoApplication           : INFO LOG
+2023-04-06 18:05:51.752  WARN 14887 --- [main] c.e.b.SbootCoreDemoApplication           : WARN LOG
+2023-04-06 18:05:51.753 ERROR 14887 --- [main] c.e.b.SbootCoreDemoApplication           : ERROR LOG
+2023-04-06 18:05:51.798  INFO 14887 --- [main] c.e.b.SbootCoreDemoApplication           : Car{color='null', model='null', manufacturer='null', engine=Engine{capacity=3000, noOfCynclinders=6, torque=700}}
