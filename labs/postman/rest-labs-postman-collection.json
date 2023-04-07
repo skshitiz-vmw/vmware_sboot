@@ -1,0 +1,208 @@
+{
+	"variables": [],
+	"info": {
+		"name": "REST Labs",
+		"_postman_id": "bb43011f-297b-8b16-8dd6-9848c7bde5b8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Greeting Message",
+			"request": {
+				"url": "http://localhost:8080/greetings",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET Greeting Message with req parameter",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/greetings?msg=Hello World",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greetings"
+					],
+					"query": [
+						{
+							"key": "msg",
+							"value": "Hello World",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST Greeeting Message - Plain Text",
+			"request": {
+				"url": "http://localhost:8080/greetings",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/plain",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Plain text POST example"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST Greeeting Message - JSON Object Mapping",
+			"request": {
+				"url": "http://localhost:8080/greetings",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message\": \"Hello World\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST Greeeting Message - JSON Collection Mapping",
+			"request": {
+				"url": "http://localhost:8080/greetings/collection",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"message\": \"Hello World\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST Greeeting Message - JSON Entity Mapping",
+			"request": {
+				"url": "http://localhost:8080/greetings/entity",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"message\": \"Hello World\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Greeeting Message with ID as path variable",
+			"request": {
+				"url": "http://localhost:8080/greetings/100;msgType=Info",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"message\": \"Hello World\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Greeeting Message with ID as matrix variable",
+			"request": {
+				"url": "http://localhost:8080/greetings/matrix/123;msgType=info",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"message\": \"Hello World\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST Greeeting Message - XML Object Mapping",
+			"request": {
+				"url": "http://localhost:8080/greetings",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<greetings>\n    <message type=\"special\">Hello World!</message>\n</greetings>"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
