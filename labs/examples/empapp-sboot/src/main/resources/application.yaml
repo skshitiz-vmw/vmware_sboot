@@ -1,0 +1,47 @@
+#Logging
+logging:
+  level:
+    root: INFO
+  file:
+    name: empapp.log
+
+#Expose all actuator endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: empapp.log
+
+---
+spring:
+  profiles: qa
+
+logging:
+  level:
+    root: WARN
+  file:
+    name: empapp.log
+
+---
+spring:
+  profiles: prod
+
+logging:
+  level:
+    root: ERROR
+  file:
+    name: empapp.log
